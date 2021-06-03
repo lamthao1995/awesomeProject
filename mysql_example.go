@@ -3,14 +3,13 @@ package main
 import (
 	"context"
 	"fmt"
+	"github.com/lamthao1995/awesomeProject/manager"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
-	"main/manager"
 
 	//"github.com/go-redis/redis"
 	"github.com/go-redis/redis/v8"
 	_ "github.com/goinaction/code/chapter5/listing71/entities"
-	_ "github.com/lamthao1995/awesomeProject/magager"
 )
 
 type Student struct{

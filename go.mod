@@ -1,4 +1,4 @@
-module main
+module github.com/lamthao1995/awesomeProject
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
